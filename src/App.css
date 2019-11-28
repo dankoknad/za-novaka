@@ -1,22 +1,23 @@
-.App {
+.nav {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px 0;
   text-align: center;
+  background: blueviolet;
 }
 
-.App-logo {
-  height: 40vmin;
+.nav li {
+  display: inline-block;
+  margin: 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav a {
+  font-style: italic;
+  text-decoration: none;
+  color: #fff;
 }
 
-.App-link {
-  color: #09d3ac;
+.nav .activeRoute {
+  text-decoration: underline;
 }

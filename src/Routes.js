@@ -12,9 +12,9 @@ import PageC from "./Pages/C/PageC"
 function Routes() {
   return (
     <Switch>
-      <Route path="/a" render={PageA} />
-      <Route path="/b" render={PageB} />
-      <Route path="/c" render={PageC} />
+      <Route path="/a" component={PageA} />
+      <Route path="/b" component={PageB} />
+      <Route path="/c" component={PageC} />
       <Redirect to="/a" />
     </Switch>
   )
